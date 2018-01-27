@@ -1,0 +1,31 @@
+@import '../variables';
+
+.wishes-list {
+  margin-bottom: 1rem;
+}
+
+.wish-item {
+  border: 1px solid $bg-color;
+  cursor: pointer;
+  margin-bottom: .75rem;
+  padding: .5rem .75rem;
+
+  &.wish-item--fulfilled {
+    border: 1px solid $green;
+  }
+
+  &.wish-item--highlighted {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+
+  .wish-item__title {
+    margin-bottom: .25rem;
+  }
+
+  .wish-item__text {
+  }
+}

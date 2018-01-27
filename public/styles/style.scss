@@ -1,0 +1,29 @@
+@import './variables';
+@import './components/panel';
+@import './components/wish';
+
+.elevate-1 {
+  box-shadow: $elevate-1;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+header {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: .75rem;
+}
+
+.card {
+  border-radius: 0;
+  box-shadow: $elevate-1;
+}
