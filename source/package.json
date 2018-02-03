@@ -1,5 +1,5 @@
 {
-  "name": "feathershuttles",
+  "name": "fjaderbooking",
   "description": "",
   "version": "0.0.0",
   "homepage": "",
@@ -25,7 +25,8 @@
     "eslint": "eslint src/. test/. --config .eslintrc.json",
     "dev": "NODE_ENV=development node src/.",
     "start": "webpack-dev-server --port 3000",
-    "production": "webpack -p",
+    "build:production": "webpack -p",
+    "prod": "NODE_ENV=prod node src/.",
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
